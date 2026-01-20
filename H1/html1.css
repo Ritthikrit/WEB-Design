@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 25px;
+}
+
+.num1 {
+    background-color: red;
+    color: white;
+    top: 0;
+    left: 0;
+}
+.num2 {
+    background-color: blue;
+    color: white;
+    top: 0;
+    right: 0;
+}
+.num3 {
+    background-color: yellow;
+    color: black;
+    bottom: 0;
+    left: 0;
+}
+.num4 {
+    background-color: green;
+    color: white;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    max-height: 100%;
+    max-width: 688px;
+}
+
+.container img {
+    width: 18em;
+}
+
+.searchbox {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c9cbce;
+    border-radius: 30px;
+    padding: 6px 15px;
+    width: 100%; 
+    max-width: 584px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topright {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    gap: 10px;
+    padding: 5px -1em;
+    padding-top: 0.5em;
+    align-items: center;
+
+}
+
+.topright a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    white-space: nowrap;
+    line-height: normal;
+    padding-right: 11px;
+}
+
+.menuicon {
+    padding-top: -0px;
+    padding-right: 5px;
+    cursor: pointer;
+    display: flex;
+    width: 24px; 
+    height: 24px;
+
+}
+
+.profileimg {
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: 0;
+    object-fit: cover;
+}
+
+.profileimg img {
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 4px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: 0;
+}
+
+
+.textinput {
+    font: 16px Arial, sans-serif;
+    flex: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 12px;          
+    margin-top: 28px;    
+    flex-wrap: nowrap;
+}
+
+.buttons button {
+    background-color: #f9fbff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height:40px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 0.4;
+    color: rgb(28, 29, 29);
+}
+
+p {
+    font-size: small;
+    color: rgb(54, 54, 54);
+    padding: 10px;
+    line-height: 28px;
+    font-family: Arial, sans-serif;
+}
+
+
+.mic {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.keyboard {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.searchicon {
+    background-size: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    height: 20px;
+    width: 20px;
+}

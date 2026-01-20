@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    text-shadow: 1px 1px 0 #000;
+}
+
+.topcontainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4px;
+    height: 100vh;
+    padding: 4px;
+}
+
+.leftside {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    background-image: url(https://images.unsplash.com/photo-1694875546238-67cb3596adf1?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.logocontainer {
+    margin-top: -2rem;
+    height: auto;
+    width: 800px;
+    font-size: 1rem;
+    color: rgb(255, 218, 26);
+    line-height: 0.8;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logocontainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ikealogo {
+    vertical-align: top;
+}
+
+.buttoncontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.topb {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 0;
+    font-weight: 900px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+
+}
+
+.arrowdown {
+    font-size: 2rem;
+    display: flex;
+    margin-left: -22rem;
+    margin-top: -0.5rem;
+}
+
+.lbbutton {
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    font-weight: 900;
+    color: white;
+    font-size: 1.5    git add .rem;
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.left {
+    background-color: #ffe227;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+
+
+}
+
+.right {
+    background-color: rgba(255, 221, 0, 0.693);
+    padding-right: 230px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+
+.rightsidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 100%;
+}
+
+.card {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+}
+
+.card h3 {
+    color: white;
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 #000;
+}
+
+.card1 {
+    background-image: url(https://static.bangkokpost.com/media/content/dcx/2023/12/06/4986421.jpg);
+}
+
+.card2 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/72/IKEA_Shopping_centre_Sweden.jpg);
+}
+
+.card3 {
+    background-image: url(https://www.lbhf.gov.uk/sites/default/files/styles/width_900px/public/ikea-hammersmith-opening-02.jpg?itok=y2syGS0l);
+}
+
+.card4 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/01/IKEA_Nagakute_at_night.jpg);
+}

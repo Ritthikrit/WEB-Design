@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    margin: 4em;
+    width: 90vw;
+    height:90vh;
+    background: rgb(0, 255, 0);
+   
+}
+
+.banner {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50% , 0);
+    background: rgb(0, 255, 213);
+    border: solid black 0.2rem;
+    padding: 10px 20px;
+    font-size: 50px;
+    margin-top: 3px;
+}
+
+.close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+   
+}
+
+.left {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50% , 0);
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    top: 35%;
+    margin-left: 0%;
+
+}
+
+.bottom {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    bottom: -8%;
+    right: -18%;
+}
+
+.text {
+    position: absolute;
+    width: 500px;
+    color: white;
+    border: dotted white ;
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+    top: 40%;
+    left: 31%;
+
+}
